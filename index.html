@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="logo">
+                    <a href=""><img src="assets/img/logo.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="menu-top">
+                           <div class="account">
+                               <a href="#">Tạo tài khoản</a>
+                               <a href="#">Đăng nhập</a>
+                           </div>
+                           <div class="cart">
+                               <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="count-order">0</span>Giỏ hàng</a>
+                           </div>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="menu-content">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav" id="menu-right">
+
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Thực đơn<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Action</a></li>
+                                                    <li><a href="#">Another action</a></li>
+                                                    <li><a href="#">Something else here</a></li>
+
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Khuyến mại</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Giới thiệu</a></li>
+                                            <li class="menu-hide-destop"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Tạo tài khoản</a></li>
+                                            <li class="menu-hide-destop"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+                                            <li class="menu-hide-destop" id="cart-mobile-hide">
+                                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="count-order">0</span>Giỏ hàng</a>
+                                            </a></li>
+                                        </ul>
+
+                                    </div><!-- /.navbar-collapse -->
+                                </div><!-- /.container-fluid -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="banner">
+        <div class="row">
+            <div id="myCarousel" class="carousel  slide">
+                <!-- Dot Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Items -->
+                <div class="carousel-inner">
+                    <div class="active item">  <img src="assets/img/banner1.jpg" class="img-responsive"></div>
+                    <div class="item">  <img src="assets/img/banner2.jpg" class="img-responsive"></div>
+                    <div class="item">  <img src="assets/img/banner3.jpg" class="img-responsive"></div>
+                    <div class="item">  <img src="assets/img/banner4.png" class="img-responsive"></div>
+                </div>
+                <!-- Navigation -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+</section>
+<section id="content">
+    <div class="main">
+        <div class="container">
+            <div class="love-product">
+                <div class="title-category">
+                    <h2>Món ăn được yêu thích</h2>
+                </div>
+                <div class="content-product">
+                    <div class="row">
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake1.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake1.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake1.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake1.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake1.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 item-product">
+                            <img src="assets/img/cake2.jpg" alt="">
+                            <div class="detail-product">
+                                <h4>Phô Mai</h4>
+                                <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                            </div>
+                            <div class="action-add-cart">
+                                <h3><a href="/aa">Mua ngay</a></h3>
+                            </div>
+                            <div class="overlay">
+                                <h4>Phô Mai</h4>
+                                <div class="tooltip-detail">
+                                    Lorem ipsum dolor sit.
+                                </div>
+                            </div>
+                        </div><div class="col-md-3 item-product">
+                        <img src="assets/img/cake1.jpg" alt="">
+                        <div class="detail-product">
+                            <h4>Phô Mai</h4>
+                            <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                        </div>
+                        <div class="action-add-cart">
+                            <h3><a href="/aa">Mua ngay</a></h3>
+                        </div>
+                        <div class="overlay">
+                            <h4>Phô Mai</h4>
+                            <div class="tooltip-detail">
+                                Lorem ipsum dolor sit.
+                            </div>
+                        </div>
+                    </div><div class="col-md-3 item-product">
+                        <img src="assets/img/cake2.jpg" alt="">
+                        <div class="detail-product">
+                            <h4>Phô Mai</h4>
+                            <div  class="price"><strong class="price__text">89.000&nbsp;₫</strong></div>
+                        </div>
+                        <div class="action-add-cart">
+                            <h3><a href="/aa">Mua ngay</a></h3>
+                        </div>
+                        <div class="overlay">
+                            <h4>Phô Mai</h4>
+                            <div class="tooltip-detail">
+                                Lorem ipsum dolor sit.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="load-more">
+                    <a href="">Xem tất cả sản phẩm</a>
+                </div>
+            </div>
+            <div class="sale-product">
+                <div class="title-category">
+                    <h2>CHƯƠNG TRÌNH KHUYẾN MÃI</h2>
+                </div>
+                <div class="sale-deltail">
+                    <div class="carousel-product">
+
+                        <div class="carousel-product__item carousel-product__item--huge  ">
+                            <a href="javascript:;" title="Sample 1">
+                                <img src="http://thepizzacompany.vn/modules/zini_imagegrid/images/ea0db79cad80751a9b7295e8696a20e8d44adfca_590Wx449H (1).jpg" alt="Sample 1" class="carousel-product__img">
+                            </a>
+                        </div>
+                        <div class="carousel-product__item  carousel-product__item--small  ">
+                            <a href="javascript:;" title="Xuân Phú Quý">
+                                <img src="http://thepizzacompany.vn/modules/zini_imagegrid/images/fa134c031a79503e1e704d9cb8b9decfabad50c6_285x219-(VN).jpg" alt="Xuân Phú Quý" class="carousel-product__img">
+                            </a>
+                        </div>
+                        <div class="carousel-product__item  carousel-product__item--small  ">
+                            <a href="javascript:;" title="Pizza Viền Phô Mai Vua">
+                                <img src="http://thepizzacompany.vn/modules/zini_imagegrid/images/576c6f883239556c40b341467d90e4529a9e567a_260x200-(VN)-combo2.jpg" alt="Pizza Viền Phô Mai Vua" class="carousel-product__img">
+                            </a>
+                        </div>
+                        <div class="carousel-product__item  carousel-product__item--medium  ">
+                            <a href="javascript:;" title="Sample 4"><img src="http://thepizzacompany.vn/modules/zini_imagegrid/images/cbd5e302940709e359efdcca18d30b13e2fb8c23_Asset 3.png" alt="Sample 4" class="carousel-product__img">
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer">
+<div class="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="footer__title">HỖ TRỢ</h4>
+                <ul class="footer__nav__item-sub">
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/contact-us" class="footer__nav_link" title="Liên hệ với chúng tôi">Liên hệ với chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/stores" class="footer__nav_link" title="Cửa hàng">Cửa hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 class="footer__title">THE PIZZA COMPANY</h4>
+                <ul class="footer__nav__item-sub">
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/content/4-about-us" class="footer__nav_link" title="The Pizza Company">The Pizza Company</a>
+                    </li>
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/content/7-career" class="footer__nav_link" title="Nghề nghiệp">Nghề nghiệp</a>
+                    </li>
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/content/8-privacy-policy" class="footer__nav_link" title="Chính sách bảo mật">Chính sách bảo mật</a>
+                    </li>
+                    <li>
+                        <a href="http://thepizzacompany.vn/vn/content/9-terms-and-conditions-of-use" class="footer__nav_link" title="Điều khoản và điều kiện">Điều khoản và điều kiện</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 class="footer__title">Kết nối với chúng tôi</h4>
+                <ul class="list-social-connection">
+                    <li class="list-social-connection__item">
+                        <a href=" https://www.facebook.com/ThePIZZAcompanyVN/ " title="facebook" class="list-social-connection__link" target="_blank">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                    </li>
+                    <li class="list-social-connection__item">
+                        <a href="javascript:;" title="youtube" class="list-social-connection__link" target="_blank">
+                            <span class="fa fa-youtube"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer__bot">
+        <div class="container">
+            <h1 class="footer__logo"><a href="/" title="Pizza"><img src="assets/img/logo-the-pizza-company.png" alt="Pizza"></a></h1>
+            <p class="copyright">© Copyright 2016 Pizza Ngon Joint Stock Company, 10th floor, Lottery Tower, 77 Tran Nhan Ton, District 5, Ho Chi Minh City<br>Tel. (028) 3820 6525 - E-mail. <a href="mailto:chamsockhachhang@thepizzacompany.vn"> chamsockhachhang@thepizzacompany.vn</a> </p>
+        </div>
+    </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

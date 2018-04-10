@@ -325,3 +325,6 @@ li.menu-hide-destop{
 .navbar-collapse {
 padding-left: 0px; 
 }
+section.banner {
+    overflow: hidden;
+}
